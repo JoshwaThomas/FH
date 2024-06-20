@@ -1,0 +1,85 @@
+<html>
+<head><title>showroom</title>
+	<style>
+		#b{
+			border-radius: 20px;
+			padding:10px 20px;
+			background: transparent;
+			
+			
+		}
+		#b:hover{
+			background-color: blue;
+			color:white;
+		}
+		#b1{
+			border-radius: 20px;
+			padding:10px 20px;
+			background: transparent;
+			margin-left: 15%;
+			
+		}
+		#b1:hover{
+			background-color: blue;
+			color:white;
+		}
+		body{
+
+			background-image: url('p.image/vehihome.jpeg');
+			background-repeat: no-repeat;
+			background-size: cover;
+			color: black;
+			font-style: bold;
+			
+		}
+		.container{
+		top:40%;
+		left:40%;
+		position:absolute;
+		
+	}
+	.card{
+  		padding: 60px 40px 50px 40px;
+  		border-radius:15px;
+  		background-color:dcdcdc;
+  		box-shadow: 0 32px 120px 0 rgba(31,38,140,.37);
+  		border-left: 1px solid ;
+  		border-top: 1px solid ;
+  		border-bottom: 1px solid ;
+  		border-right: 1px solid ;
+	}
+	ul{
+		float: right;
+		margin-right: 0px;
+	}
+	li{
+		display: inline-block;
+		line-heigt: 80px;
+		margin: 0 5px;
+	}
+	nav ul li a{
+		color: white;
+		font-size: 17px;
+		text-transform: uppercase;
+		padding: 7px 13px;
+		border-radius: 3px;
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+	<nav class="nav">
+		<ul class="li">
+			<li><a href="home.html">HOME</a></li>
+			<li><a href="#">CONTACT</a></li>
+			<li><a href="#">ABOUT</a></li>
+		</ul>
+	 </nav>
+	<div class="container">
+		<div class="card">
+			<a href="slogin.php"><input type="button" id="b" name="sp" value="showroom"></a><br><br>
+			<a href="s1.php"><input type="button" id="b1" name="cl" value="user" ></a>
+		</div>
+	</div>
+</body>
+</html>
